@@ -19,18 +19,23 @@
 
   <body>
 
-    <form action="submit" class="search_bar">
-
+    <form action="submit"
+    class="search_bar"
+    data-qa="big">
       <input class="search_bar__input search_bar__input--large"
         type="text"
-        data-qa="keypress"
         placeholder="Try “Los Angeles“"
+        data-qa="keypress"
       />
+    </form>
 
+    <form action="submit"
+    class="search_bar"
+    data-qa="small">
       <input class="search_bar__input search_bar__input--small"
         type="text"
-        data-qa="hover"
         placeholder="Los Angeles"
+        data-qa="small"
       />
     </form>
 
